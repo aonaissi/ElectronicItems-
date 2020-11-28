@@ -31,7 +31,6 @@ echo $sortedItems;
 echo "Grand Total price: " . money_format('%i',  $electronicItems->getTotalPrice()) . " $<br/>";
 
 echo "<br/><br/><br/>Q2:<br/> Console detailed price: <br/>";
-// echo $electronicItems->getExtrasDetails($console);
 echo $console->getSummary();
 
 
